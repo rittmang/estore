@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link href="" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="../static/css/signin.css" rel="stylesheet">
+    </head>
+    <body class="text-center">
+            
+        <form class="form-signin" method="post" action="/login/{{ user }}">
+              <img class="mb-4" src="https://rightonrittman.files.wordpress.com/2018/05/wp-logo.png?w=250" alt="" height="40%" width="40%">
+              <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+              <label for="inputUsername" class="sr-only">Username</label>
+              <input type="text" id="inputUsername" class="form-control" placeholder="username" name="username" required>
+              <p></p>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="password" name="password" required>
+              <p></p>
+              <button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Sign in</button>
+              <p class="mt-5 mb-3 text-muted" style="font-size:10px;color:white">&copy; 2019, RightOnRittman. All rights reserved.</p>
+            </form>
+    </body>
+
+</html>
