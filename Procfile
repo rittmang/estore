@@ -1,1 +1,1 @@
-web: gunicorn rightonrittman:app
+web: gunicorn estore_purchase:app
