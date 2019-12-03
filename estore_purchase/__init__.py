@@ -18,6 +18,7 @@ login_manager.init_app(app)
 login_manager.login_view="login"
 bcrypt=Bcrypt(app)
 app.config["SQLALCHEMY_DATABASE_URI"]=os.getenv("DATABASE_URL")
+
 @app.route("/")
 def root():
     return render_template(
