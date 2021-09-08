@@ -16,7 +16,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 pathspec==0.6.0
-Pillow==6.2.1
+Pillow==8.3.2
 psycopg2-binary==2.8.4
 pycparser==2.19
 python-http-client==3.2.1
